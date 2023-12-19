@@ -18,15 +18,13 @@ class GetData extends React.Component{
         const {placeHolderObj} = this.state
         return(
             <div>
-                <li>
-                    nome : {placeHolderObj.map((placeHolderObj)=>(
+                    {placeHolderObj.map((placeHolderObj)=>(
                         <div>
                             <li>
                                 nome: {placeHolderObj.nominativo}
                             </li>
                         </div>
                     ))}
-                </li>
             </div>
         )
     }

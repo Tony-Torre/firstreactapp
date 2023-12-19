@@ -8,16 +8,20 @@ import First from './myObject/FirstJS';
 import { MyMenu } from './myObject/MyRoute';
 import { Summon, Sottrazione } from './myObject/Operation';
 import GetData from './myObject/GetData';
+import Tsvc from './myObject/TestService';
+import UseService from './myObject/UseService';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <First />
-    <FirstWithClass />
+    {/* <First />
+    <FirstWithClass /> */}
     <MyMenu />
-    <Summon numero = {{n1: 5, n2: 4}}/>
+    {/* <Summon numero = {{n1: 5, n2: 4}}/>
+    <Sottrazione numero ={{n1 : 10, n2: 3}}/>
     <GetData />
+    <UseService TService= {Tsvc}/> */}
   </React.StrictMode>
 );
 
