@@ -1,7 +1,7 @@
 import { BrowserRouter, Link, Route, Router, Routes } from "react-router-dom";
 import FirstWithClass from "./FirstWithClass";
 import First from "./FirstJS";
-import Login from "./Login";
+import { Login } from "./Login";
 
 const MyMenu = () => {
     return (

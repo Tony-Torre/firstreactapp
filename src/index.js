@@ -10,6 +10,7 @@ import { Summon, Sottrazione } from './myObject/Operation';
 import GetData from './myObject/GetData';
 import Tsvc from './myObject/TestService';
 import UseService from './myObject/UseService';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
